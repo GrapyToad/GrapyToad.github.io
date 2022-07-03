@@ -18,4 +18,23 @@ h1 {
 
 .ResumeLink a:hover, a:active {
     background-color: #3EB489;
-  }
+}
+
+.reflection {
+    text-indent: 30px;
+    width: auto;
+    border: 0px;
+    padding: 0px;
+    margin: 10px;
+}
+
+#first::first-letter {
+    color: #3EB489;
+}
+
+#first {
+    width: auto;
+    border: 0px;
+    padding: 0px;
+    margin: 10px;
+}
