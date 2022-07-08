@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background-color: #696969;
     color: white;
@@ -39,17 +43,13 @@ h1 {
     margin: 10px;
 }
 
-* {
-    box-sizing: border-box;
-  }
-
-    .bigimg {
+.bigimg {
     text-align: center;
     border: 4px white;
     border-width: 4px;
-  }
+}
 
-  #column {
+#column {
     width: auto;
     height: auto;
     max-height: 70vh;
@@ -57,24 +57,24 @@ h1 {
     margin-top: 10px;
     border: darkslategrey solid 3px;
     border-radius: 8px;
-  }
+}
 
-  .row {  
+.row {  
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
-  .side {
+.side {
     flex: 30%;
     padding: 20px;
-  }
+}
   
-  .main {
+.main {
     flex: 70%;
     padding: 20px;
-  }
+}
   
-  .image {
+.image {
     width: 380px;
     height: 380px;
     justify-content: right;
