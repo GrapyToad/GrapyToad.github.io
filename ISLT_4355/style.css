@@ -25,7 +25,8 @@ body, html {
   .parallax {
     /* The image used */
     background-image: url('pokemonbg.jpeg');
-    background-repeat: repeat;
+    background-repeat: repeat-y;
+    background-size: cover;
   
     /* Full height */
     height: 100%; 
