@@ -26,7 +26,6 @@ body, html {
     /* The image used */
     background-image: url('pokemonbg.jpeg');
     background-repeat: repeat;
-    font-size: 1vw;
   
     /* Full height */
     height: 100%; 
