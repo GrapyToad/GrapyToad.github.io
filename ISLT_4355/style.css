@@ -20,12 +20,13 @@ body, html {
     height: 100%;
     margin: 0;
     color: white;
-    font-size: 1vw;
   }
   
   .parallax {
     /* The image used */
     background-image: url('pokemonbg.jpeg');
+    background-repeat: repeat;
+    font-size: 1vw;
   
     /* Full height */
     height: 100%; 
