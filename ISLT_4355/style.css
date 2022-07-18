@@ -103,6 +103,7 @@ Start of Grid Styling
     text-align: center;
     border: 4px white;
     border-width: 4px;
+    width: 100%;
 }
 
 #column {
@@ -190,8 +191,8 @@ Start of Grid Styling
 }
   
 .image {
-    width: 380px;
-    height: 380px;
+    width: 90%;
+    height: auto;
     justify-content: right;
     border: darkslategrey solid 3px;
     border-radius: 8px;
