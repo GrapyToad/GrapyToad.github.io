@@ -306,6 +306,7 @@ input[type=submit]:hover {
 table { 
     width: 100%; 
     border-collapse: collapse; 
+    background-color: grey;
   }
   /* Zebra striping */
   tr:nth-of-type(odd) { 
