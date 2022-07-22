@@ -48,6 +48,29 @@ Updated: July 21, 2022
     </header>
 
     <main>
+    <div class="contactcontainer">
+        <h3>Contact us</h3>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="action_page.php">
+            <label for="fname" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="fname" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+    </div>
+        <!--
         <div class="contactcontainer">
             <form id="fcf-form-id" class="fcf-form-class" method="post" action="action_page.php"></form>
           
@@ -70,6 +93,7 @@ Updated: July 21, 2022
               <input type="submit" value="Submit">
           
             </form>
+        -->
           </div>
     </main>
 
