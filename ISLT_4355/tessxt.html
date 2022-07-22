@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<!--
+
+*****************************************************************************
+
+Title:  Template.html
+
+Use:  To share info about me.
+
+Author:  Grady Todd
+
+School/Term:  University of Missouri, Summer 2022
+
+Developed: June 16, 2022
+
+******************************************************************************
+
+-->
+               <meta charset="utf-8">
+               <title>About Me</title>
+
+<script>
+    const menu = document.querySelector(".menu");
+let open;
+
+function openMenu() {
+  if (open) {
+    menu.style.display = "none";
+    open = false;
+  } else if (!open) {
+    menu.style.display = "block";
+    open = true;
+  }
+}
+</script>
+</head>
+
+<style>
+    body {
+  width: 90%;
+  height: 800px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #583760;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+
+.logo {
+  color: white;
+}
+
+.list {
+  display: grid;
+  grid-auto-flow: column;
+  list-style-type: none;
+  column-gap: 40px;
+}
+
+.listItem {
+  width: min-content;
+  white-space: nowrap;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (min-width: 801px) {
+  .menu {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .header {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .mobileHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .list {
+    grid-auto-flow: row;
+    list-style-type: none;
+    row-gap: 40px;
+    column-gap: 0;
+    justify-items: center;
+  }
+}
+</style>
+
+<body>
+    <header class="header">
+        <div class="mobileHeader">
+          <img src="images/GameStar-Blanc.png" alt="logo" class="logo">
+          <button onclick={openMenu()} class="hamburger">Menu</button>
+        </div>
+        <nav class="menu">
+          <ul class="list">
+            <li class="listItem"><a href="#">A LA UNE </a></li>
+            <li><a href="#">L'ACTUALITE</a></li>
+            <li><a href="#">GUIDES ET ASTUCES</a></li>
+            <li><a href="#">PROCHAINEMENT</a></li>
+          </ul>
+        </nav>
+      </header>
+<main>
+</main>
+<footer>
+    <p>Grady Todd ghtddc@umsystem.edu Copyright 2022 Grady Todd All Rights Reserved</p>
+</footer>
+</body>
+</html>
