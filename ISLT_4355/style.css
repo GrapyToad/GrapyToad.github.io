@@ -45,6 +45,7 @@ body, html {
 @media only screen and (max-width: 1366px) {
     .parallax {
       background-attachment: scroll;
+      background-color: #0b420b;
     }
 }
 
@@ -310,6 +311,8 @@ table {
     position: relative;
     left: 17%;
     border: 3px solid darkslategray;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   
   th, td {
